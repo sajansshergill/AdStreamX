@@ -1,0 +1,9 @@
+# Minimal deps to run the ranking API (no psycopg2 / numpy / pandas)
+confluent-kafka>=2.6
+faker>=25.9
+pydantic>=2.8
+python-dotenv>=1.0
+redis>=5.0
+fastapi>=0.112
+uvicorn>=0.30
+joblib>=1.4
